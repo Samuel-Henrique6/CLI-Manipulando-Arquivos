@@ -90,7 +90,8 @@ class Database {
 
 module.exports = new Database();
 
-/*
+/*Exemplo usando function
+
 const { readFile } = require('fs');
 const { promisify } = require('util');
 
@@ -112,4 +113,5 @@ async function listar(id) {
 module.exports = {
     listar
 };
+
 */
